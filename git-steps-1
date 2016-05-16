@@ -27,6 +27,14 @@ Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (master)
 $ git branch
 * master
 
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (master)
+$ git checkout mmuell2-recommends
+Branch mmuell2-recommends set up to track remote branch mmuell2-recommends from origin.
+Switched to a new branch 'mmuell2-recommends'
+
+
+
 Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (master)
 $ git branch -all
 error: did you mean `--all` (with two dashes ?)

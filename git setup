@@ -32,3 +32,9 @@ Administrator@WIN-M6U0LS8VEOF MINGW64 ~
 $ git config --global core.editor
 
 Administrator@WIN-M6U0LS8VEOF MINGW64 ~
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~
+$ git config --global push.default simple
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~
+

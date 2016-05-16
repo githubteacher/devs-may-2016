@@ -169,3 +169,17 @@ $
 Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (master)
 $ git config --global fetch.prune true
 
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (master)
+$ git log --oneline --graph
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (master)
+$ git config --global alias.lol "log --online --graph --decorate --all"
+
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (master)
+$ git checkout -b mmuell2-more
+Switched to a new branch 'mmuell2-more'
+
+this is short for
+git branch mmuell2-more; git checkout mmuell2-more

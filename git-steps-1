@@ -1,0 +1,83 @@
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (master)
+$ find .git -type d
+.git
+.git/hooks
+.git/info
+.git/logs
+.git/logs/refs
+.git/logs/refs/heads
+.git/logs/refs/remotes
+.git/logs/refs/remotes/origin
+.git/objects
+.git/objects/info
+.git/objects/pack
+.git/refs
+.git/refs/heads
+.git/refs/remotes
+.git/refs/remotes/origin
+.git/refs/tags
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (master)
+$ git branch
+* master
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (master)
+$ git branch -all
+error: did you mean `--all` (with two dashes ?)
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (master)
+$ git branch -a
+* master
+  remotes/origin/CarolePatil2016-recommends
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/brianamarie-recommends
+  remotes/origin/chandu002-recommends
+  remotes/origin/dfstestmatt-recommends
+  remotes/origin/drchipinski-recommendations
+  remotes/origin/github-priya-recommends
+  remotes/origin/githubmay2016github-recommends
+  remotes/origin/githubteacher-recommends
+  remotes/origin/jarvey33-recommends
+  remotes/origin/jlestes-recommends
+  remotes/origin/malom
+  remotes/origin/master
+  remotes/origin/mmuell2-recommends
+  remotes/origin/nancy-comments
+  remotes/origin/pranag74-recommends
+  remotes/origin/prod19---recommends
+  remotes/origin/richa-recommends
+  remotes/origin/sanketmodi1991---recommends
+  remotes/origin/snalla100-recommends
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (master)
+$ git branch --all
+* master
+  remotes/origin/CarolePatil2016-recommends
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/brianamarie-recommends
+  remotes/origin/chandu002-recommends
+  remotes/origin/dfstestmatt-recommends
+  remotes/origin/drchipinski-recommendations
+  remotes/origin/github-priya-recommends
+  remotes/origin/githubmay2016github-recommends
+  remotes/origin/githubteacher-recommends
+  remotes/origin/jarvey33-recommends
+  remotes/origin/jlestes-recommends
+  remotes/origin/malom
+  remotes/origin/master
+  remotes/origin/mmuell2-recommends
+  remotes/origin/nancy-comments
+  remotes/origin/pranag74-recommends
+  remotes/origin/prod19---recommends
+  remotes/origin/richa-recommends
+  remotes/origin/sanketmodi1991---recommends
+  remotes/origin/snalla100-recommends
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (master)
+$

@@ -1,0 +1,34 @@
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~
+$ clear
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~
+$ git config --global user.name "Marc Mueller"
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~
+$ git config --global user.name
+Marc Mueller
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~
+$ git config --global user.email "marcmueller@discover.com"
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~
+$ git config --global core.autocrlf true
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~
+$ git config --global core.autocrlf
+true
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~
+$ git config --global core.autocrlf input
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~
+$ which vi
+/usr/bin/vi
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~
+$ # git config --global core.editor "atom --wait"
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~
+$ git config --global core.editor
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~

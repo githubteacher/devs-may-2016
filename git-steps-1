@@ -1,0 +1,185 @@
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (master)
+$ find .git -type d
+.git
+.git/hooks
+.git/info
+.git/logs
+.git/logs/refs
+.git/logs/refs/heads
+.git/logs/refs/remotes
+.git/logs/refs/remotes/origin
+.git/objects
+.git/objects/info
+.git/objects/pack
+.git/refs
+.git/refs/heads
+.git/refs/remotes
+.git/refs/remotes/origin
+.git/refs/tags
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (master)
+$ git branch
+* master
+
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (master)
+$ git checkout mmuell2-recommends
+Branch mmuell2-recommends set up to track remote branch mmuell2-recommends from origin.
+Switched to a new branch 'mmuell2-recommends'
+
+
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (master)
+$ git branch -all
+error: did you mean `--all` (with two dashes ?)
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (master)
+$ git branch -a
+* master
+  remotes/origin/CarolePatil2016-recommends
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/brianamarie-recommends
+  remotes/origin/chandu002-recommends
+  remotes/origin/dfstestmatt-recommends
+  remotes/origin/drchipinski-recommendations
+  remotes/origin/github-priya-recommends
+  remotes/origin/githubmay2016github-recommends
+  remotes/origin/githubteacher-recommends
+  remotes/origin/jarvey33-recommends
+  remotes/origin/jlestes-recommends
+  remotes/origin/malom
+  remotes/origin/master
+  remotes/origin/mmuell2-recommends
+  remotes/origin/nancy-comments
+  remotes/origin/pranag74-recommends
+  remotes/origin/prod19---recommends
+  remotes/origin/richa-recommends
+  remotes/origin/sanketmodi1991---recommends
+  remotes/origin/snalla100-recommends
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (master)
+$ git branch --all
+* master
+  remotes/origin/CarolePatil2016-recommends
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/brianamarie-recommends
+  remotes/origin/chandu002-recommends
+  remotes/origin/dfstestmatt-recommends
+  remotes/origin/drchipinski-recommendations
+  remotes/origin/github-priya-recommends
+  remotes/origin/githubmay2016github-recommends
+  remotes/origin/githubteacher-recommends
+  remotes/origin/jarvey33-recommends
+  remotes/origin/jlestes-recommends
+  remotes/origin/malom
+  remotes/origin/master
+  remotes/origin/mmuell2-recommends
+  remotes/origin/nancy-comments
+  remotes/origin/pranag74-recommends
+  remotes/origin/prod19---recommends
+  remotes/origin/richa-recommends
+  remotes/origin/sanketmodi1991---recommends
+  remotes/origin/snalla100-recommends
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (master)
+$
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (master)
+$ git checkout mmuell2-recommends
+Branch mmuell2-recommends set up to track remote branch mmuell2-recommends from origin.
+Switched to a new branch 'mmuell2-recommends'
+
+
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (mmuell2-recommends)
+$ git status
+On branch mmuell2-recommends
+Your branch is up-to-date with 'origin/mmuell2-recommends'.
+nothing to commit, working directory clean
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (mmuell2-recommends)
+$ ls -lrt
+total 6
+-rw-r--r-- 1 Administrator 197121 607 May 16 13:30 README.md
+-rw-r--r-- 1 Administrator 197121  42 May 16 13:48 mmuell2-file
+-rw-r--r-- 1 Administrator 197121 966 May 16 13:48 git setup
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (mmuell2-recommends)
+$ vi mmuell2-file
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (mmuell2-recommends)
+$ git status
+On branch mmuell2-recommends
+Your branch is up-to-date with 'origin/mmuell2-recommends'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   mmuell2-file
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (mmuell2-recommends)
+
+
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (mmuell2-recommends)
+$ git status
+On branch mmuell2-recommends
+Your branch is up-to-date with 'origin/mmuell2-recommends'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   mmuell2-file
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (mmuell2-recommends)
+$ git add mmuell2-file
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (mmuell2-recommends)
+$ git status
+On branch mmuell2-recommends
+Your branch is up-to-date with 'origin/mmuell2-recommends'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   mmuell2-file
+
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (mmuell2-recommends)
+$
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (mmuell2-recommends)
+$ git commit # this open default editor so you can enter a "commit message"
+[mmuell2-recommends aa89096] I changed the mmuell2-file and appended a few lines.
+ 1 file changed, 4 insertions(+)
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (mmuell2-recommends)
+
+
+$
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (master)
+$ git config --global fetch.prune true
+
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (master)
+$ git log --oneline --graph
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (master)
+$ git config --global alias.lol "log --online --graph --decorate --all"
+
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (master)
+$ git checkout -b mmuell2-more
+Switched to a new branch 'mmuell2-more'
+
+this is short for
+git branch mmuell2-more; git checkout mmuell2-more

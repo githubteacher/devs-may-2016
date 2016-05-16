@@ -3,3 +3,7 @@
 ### Great place to eat
 
 ### Fun things to do
+
+- Great deep dish
+
+- Good Chinesee recommendations

@@ -7,3 +7,5 @@
 - Ski/snowboard
 - Hike
 - Fishing
+
+### Added to the screen

@@ -1,0 +1,20 @@
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~
+$ mkdir mmuell2
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~
+$ mkdir scratch
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~
+$ cd scratch
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch
+$ git clone https://github.com/githubteacher/devs-may-2016.git
+Cloning into 'devs-may-2016'...
+remote: Counting objects: 114, done.
+remote: Compressing objects: 100% (9/9), done.
+ reused 0 (delta 0), pack-reused 104
+Receiving objects: 100% (114/114), 12.90 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (12/12), done.
+Checking connectivity... done.
+
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch

@@ -2,4 +2,4 @@
 
 ### Great Places in Eat
 
-### Fun THings to do
+### Fun Things to do

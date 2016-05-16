@@ -163,4 +163,9 @@ $ git commit # this open default editor so you can enter a "commit message"
  1 file changed, 4 insertions(+)
 
 Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (mmuell2-recommends)
+
+
 $
+Administrator@WIN-M6U0LS8VEOF MINGW64 ~/scratch/devs-may-2016 (master)
+$ git config --global fetch.prune true
+
